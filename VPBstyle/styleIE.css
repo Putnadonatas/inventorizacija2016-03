@@ -1,0 +1,241 @@
+
+/* header style */ 
+#header 
+{
+	margin: 0px 0px 0px 0px;
+	background-color: #f3f3f3;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	clear: both;
+    overflow: hidden;
+	height: 180px;
+	width: 100%;
+	padding-left: 3%;
+}
+td {
+padding: 0px 2px 1px 0px;
+border-left: 1px solid red;
+text-align: center;
+}
+td.newData{
+padding: 0px 2px 1px 0px;
+border: none;
+}
+
+#navigation {
+	margin: 0 auto;
+	width: auto;
+	background-color: transparent;
+	border-style: none;
+	height:15px;
+	color: black;
+    clear: both;	
+}
+ .search-button {
+	border: none;
+    background-repeat: no-repeat;
+	z-index: 3;
+	height: 26px;
+	width: 26px;
+	vertical-align: middle;
+}
+#searchTextField{
+	height: 22px;
+	}
+#search{
+  background-image: url("Images/search.png;");	
+}
+
+#headerLT
+{
+	color : Black; 
+	text-align: left;
+	font-family: times new roman;
+	font-size:18px;
+}
+#headerEN{
+	color : Navy; 
+	font-family: times new roman;
+	font-size:14px;
+}
+
+
+.language:link{
+    background-color: transparent;
+	color: grey;
+	text-decoration :none;
+	text-transform: uppercase;
+}
+
+a.language:visited {
+    background-color: transparent;
+	color: grey;
+	text-decoration :none;
+	text-transform: uppercase;
+}
+
+a.language:hover {
+	position: relative;
+    background-color: transparent;
+	color: #000002;
+	text-decoration :none;
+	text-transform: uppercase;
+}
+
+a.language:active {
+    background-color: transparent;;
+	color: black;
+	text-decoration :none;
+	text-transform: uppercase;
+}  
+	
+}
+ .headerButtons, #headerButtonsFirst { 
+	color:black; 
+	font-size: 17px;
+	text-transform: uppercase; 
+	padding-left:0.45%;
+	padding-right:0.45%; 
+	border-right: 1px solid #000000;
+	position :relative;
+	text-decoration: none;
+}
+.headerButtons:hover, #headerButtonsFirst:hover{
+	color: #8e8d8d;
+	
+}
+#headerButtonsFirst{
+	padding-left:40px;
+	padding-right:40px; 
+	border-left: 1px solid #000000;
+}
+/* Page blocks style */ 
+#news, #design, #topography, #trademarks, #information, #eServices, #Official, #inventions  
+{
+	text-decoration: overline underline; 
+	width: 200px;
+	height: 90px;
+	font-family: times new roman;
+    filter: alpha(opacity=80);   
+    color: white;
+    text-align: center;
+    font-size: 18px;
+	padding-top: 75px;
+    text-transform: uppercase;
+	position:relative;
+	margin: 3px;
+	float:left;
+   	
+}
+
+.shadowBox{
+	width: 200px;
+	height: 165px;
+	position:relative;
+	background-color: #ffffff;
+	border-right: 1px solid #000000; 
+	border-bottom: 1px solid #000000; 
+	float:left; 
+	margin: 3px 2px 2px 3px;
+}
+.shadowBoxTop{
+	width: 200px;
+	height: 165px;
+	position:relative;
+	background-color: #ffffff;
+	border-left: 1px solid #000000;
+	border-top: 1px solid #000000;
+	float:left;  
+	margin: 2px 3px 3px 2px;
+	
+}
+.emptyBox, #textMessage { 
+	width: 200px;
+	height: 165px;
+	position:relative;
+	float:left;
+	margin: 3px;
+    background-color: #ffffff;	
+}
+#textMessage{ 
+   width: 200px;
+	height: 165px;
+   border: 1px solid #000000;
+   vertical-align: top;  
+   text-align: justify;	
+   color: #704a00;
+   overflow: hidden;
+   font-size: 14px;
+   padding-top:0%;
+   margin: 2px;   
+}
+
+ #bigButtons{ 
+	min-width: 1340px;
+	max-width:1430px;
+	background-color:white;
+	clear: both; 	
+	padding-top: 3%; 
+	padding-bottom: 3%; 
+	
+} 
+
+#news
+{
+	background-color: #ec8f2b; 
+}
+#news:hover, #design:hover, #topography:hover, #trademarks:hover, #information:hover, #eServices:hover, #Official:hover, #inventions:hover   {
+	color: #ffff10;
+	filter: alpha(opacity=80);
+}
+/*#inventions 
+{
+	background-color: #4eb25b; 
+
+}
+#design
+{ 
+	background-color: #bf8b00; 
+}
+#topography{
+	background-color: #054f83; 
+	}
+#trademarks{
+	background-color: #9f0000;
+	}
+#information {
+	height: 100px;
+	background-color: #6d8f07; 
+    padding-top: 65px;
+	text-decoration:none;
+}*/
+#information  .firstWord{ text-decoration:overline;}	
+#information  .secondWord{text-decoration:underline;}
+
+/*#eServices{
+	background-color: #00cae8;
+	} */
+ #Official{
+	height: 100px;
+	background-color: #204ad4; 
+	text-decoration:none;
+	padding-top: 65px;
+	}
+#Official .firstWord{ text-decoration:overline;}	
+#Official .secondWord{text-decoration:underline;}
+
+/* footer blocks style */ 
+#VPB_footerText {
+	background-color: #f3f3f3;
+	text-align: center;
+    overflow: hidden;
+	padding-left: 3%;
+	font-family: Times new roman;
+	font-size:18px;
+	width: 100%;
+	min-width: 1340px;
+	max-width:1430px;
+	padding-bottom:2%;
+	padding-top:2%;
+	clear: both; 
+}	
